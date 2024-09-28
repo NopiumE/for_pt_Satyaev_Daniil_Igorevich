@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+.about-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.image_size {
+    width: 100%;
+    border-radius: 8px;
+}
+.contact {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    padding: 10px;
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
