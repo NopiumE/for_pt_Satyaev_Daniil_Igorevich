@@ -43,7 +43,7 @@ if (isset($_COOKIE['User'])) {
 }
 
 
-$link = mysqli_connect('127.0.0.1','root','1','first');
+$link = mysqli_connect('10.10.0.2','root','1','first');
 
 if (isset($_POST['submit'])){
     $email = $_POST['email'];

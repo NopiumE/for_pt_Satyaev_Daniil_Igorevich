@@ -19,7 +19,7 @@
                 echo '<a href="/login.php">Sign in</a> or <a href="/registration.php">Sign up</a>';
             } else {
                 echo '<h1>Posts</h1>';
-                $link = mysqli_connect("127.0.0.1", "root", "1", "first");
+                $link = mysqli_connect("10.10.0.2", "root", "1", "first");
 
                 $sql = "SELECT * FROM posts";
                 $res = mysqli_query($link, $sql);

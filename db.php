@@ -1,6 +1,6 @@
 <?php
 
-$servername = "127.0.0.1";
+$servername = "10.10.0.2";
 $username = "root";
 $password = "1";
 $dbName = "first";
@@ -35,7 +35,8 @@ if (!mysqli_query($link,$sql)){
 $sql = "CREATE TABLE IF NOT EXISTS posts(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(20) NOT NULL,
-    main_text VARCHAR(400) NOT NULL
+    main_text VARCHAR(400) NOT NULL,
+    image_name VARCHAR(50) NOT NULL
 )";
 
 if(!mysqli_query($link,$sql)){
